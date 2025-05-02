@@ -1,0 +1,15 @@
+marks = []
+Sj1 = int(input("Enter Physic MArks..."))
+marks.append(Sj1)
+Sj2 = int(input("Enter Physic MArks..."))
+marks.append(Sj2)
+Sj3 = int(input("Enter Physic MArks..."))
+marks.append(Sj3)
+Sj4 = int(input("Enter Physic MArks..."))
+marks.append(Sj4)
+Sj5 = int(input("Enter Physic MArks..."))
+marks.append(Sj5)
+marks.sort()
+print(marks)
+sum = Sj1+Sj2+Sj3+Sj4+Sj5
+print("Sum Of Marks Are .",sum)
